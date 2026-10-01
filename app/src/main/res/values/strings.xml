@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Prompi</string>
+
+    <!-- Navegación -->
+    <string name="nav_categories">Categorías</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_favorites">Favoritos</string>
+
+    <!-- Acciones -->
+    <string name="action_back">Volver</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_create">Crear</string>
+    <string name="action_rename">Renombrar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_discard">Descartar</string>
+    <string name="action_undo">Deshacer</string>
+    <string name="action_copy">Copiar contenido</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_change_color">Cambiar color</string>
+    <string name="action_move_up">Mover arriba</string>
+    <string name="action_move_down">Mover abajo</string>
+    <string name="action_add_favorite">Añadir a favoritos</string>
+    <string name="action_remove_favorite">Quitar de favoritos</string>
+    <string name="action_new_card">Nueva ficha</string>
+    <string name="action_new_category">Nueva categoría</string>
+    <string name="action_clear_search">Borrar búsqueda</string>
+    <string name="action_import">Importar</string>
+    <string name="action_replace">Reemplazar</string>
+
+    <!-- Accesibilidad -->
+    <string name="cd_drag_handle">Mantener y arrastrar para reordenar</string>
+    <string name="cd_rate_n">Calificar con %1$d estrellas</string>
+    <string name="cd_expand">Expandir ficha</string>
+    <string name="cd_collapse">Contraer ficha</string>
+    <string name="cd_more_options">Más opciones</string>
+    <string name="state_expanded">Expandida</string>
+    <string name="state_collapsed">Contraída</string>
+
+    <!-- Colores de ficha -->
+    <string name="dialog_color_title">Color de la ficha</string>
+    <string name="color_gray">Gris</string>
+    <string name="color_blue">Azul claro</string>
+    <string name="color_pink">Rosa</string>
+    <string name="color_yellow">Amarillo</string>
+    <string name="color_green">Verde</string>
+
+    <!-- Campos -->
+    <string name="counter_format">%1$d/%2$d</string>
+    <string name="field_title">Título</string>
+    <string name="field_content">Contenido</string>
+    <string name="field_rating">Calificación</string>
+    <string name="field_category">Categoría</string>
+    <string name="field_category_name">Nombre de la categoría</string>
+
+    <!-- Editor -->
+    <string name="editor_title_new">Nueva ficha</string>
+    <string name="editor_title_edit">Editar ficha</string>
+    <string name="dialog_discard_title">¿Descartar los cambios?</string>
+    <string name="dialog_discard_text">Los cambios que no hayas guardado se perderán.</string>
+
+    <!-- Categorías -->
+    <string name="dialog_new_category_title">Nueva categoría</string>
+    <string name="dialog_rename_category_title">Renombrar categoría</string>
+    <string name="dialog_delete_category_title">¿Eliminar categoría?</string>
+    <string name="dialog_delete_category_empty">Se eliminará la categoría «%1$s».</string>
+    <plurals name="dialog_delete_category_has_cards">
+        <item quantity="one">La categoría «%1$s» contiene %2$d ficha. ¿Qué quieres hacer con ella?</item>
+        <item quantity="many">La categoría «%1$s» contiene %2$d fichas. ¿Qué quieres hacer con ellas?</item>
+        <item quantity="other">La categoría «%1$s» contiene %2$d fichas. ¿Qué quieres hacer con ellas?</item>
+    </plurals>
+    <string name="dialog_delete_category_move_to">Mover las fichas a:</string>
+    <string name="dialog_delete_category_delete_all">Eliminar también las fichas</string>
+
+    <!-- Fichas -->
+    <string name="dialog_delete_card_title">¿Eliminar ficha?</string>
+    <string name="dialog_delete_card_text">Se eliminará la ficha «%1$s».</string>
+
+    <!-- Estados vacíos -->
+    <string name="empty_categories_title">Aún no hay categorías</string>
+    <string name="empty_categories_message">Crea tu primera categoría para empezar a guardar tus prompts.</string>
+    <string name="empty_cards_title">Esta categoría está vacía</string>
+    <string name="empty_cards_message">Pulsa «Nueva ficha» para añadir tu primer prompt.</string>
+    <string name="empty_favorites_title">Sin favoritos</string>
+    <string name="empty_favorites_message">Marca una ficha con el corazón para verla aquí.</string>
+
+    <!-- Búsqueda -->
+    <string name="search_hint">Buscar en títulos y contenido</string>
+    <string name="search_idle_title">Busca entre tus fichas</string>
+    <string name="search_idle_message">Escribe una o varias palabras. No importan las mayúsculas ni las tildes.</string>
+    <string name="search_no_results_title">Sin resultados</string>
+    <string name="search_no_results_message">Prueba con otras palabras o con una parte de ellas.</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_section_appearance">Apariencia</string>
+    <string name="theme_system">Predeterminado del sistema</string>
+    <string name="theme_system_desc">Sigue el tema claro u oscuro del dispositivo</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="settings_section_backup">Copia de seguridad</string>
+    <string name="settings_export">Exportar fichas</string>
+    <string name="settings_export_desc">Guarda todas tus categorías y fichas en un archivo JSON</string>
+    <string name="settings_import">Importar fichas</string>
+    <string name="settings_import_desc">Restaura fichas desde un archivo JSON exportado con Prompi</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_version">Versión %1$s</string>
+    <string name="settings_privacy_title">Privacidad</string>
+    <string name="settings_privacy_text">Prompi funciona sin conexión. Tus datos nunca salen de tu dispositivo, salvo cuando tú exportas o compartes una ficha.</string>
+
+    <!-- Importación -->
+    <string name="dialog_import_title">Importar copia de seguridad</string>
+    <string name="dialog_import_summary">El archivo contiene %1$s y %2$s.</string>
+    <string name="import_mode_merge">Combinar</string>
+    <string name="import_mode_merge_desc">Añade las fichas a las actuales. Las categorías con el mismo nombre se unen y se omiten las fichas repetidas.</string>
+    <string name="import_mode_replace">Reemplazar todo</string>
+    <string name="import_mode_replace_desc">Elimina todas tus categorías y fichas actuales y las sustituye por las del archivo. No se puede deshacer.</string>
+    <plurals name="dialog_import_adjusted">
+        <item quantity="one">Se corregirá %d valor no válido (por ejemplo, un título demasiado largo).</item>
+        <item quantity="many">Se corregirán %d valores no válidos (por ejemplo, títulos demasiado largos).</item>
+        <item quantity="other">Se corregirán %d valores no válidos (por ejemplo, títulos demasiado largos).</item>
+    </plurals>
+
+    <!-- Mensajes -->
+    <string name="share_chooser_title">Compartir ficha</string>
+    <string name="msg_copied">Contenido copiado</string>
+    <string name="msg_nothing_to_copy">La ficha no tiene contenido para copiar</string>
+    <string name="msg_added_favorite">Añadida a favoritos</string>
+    <string name="msg_removed_favorite">Quitada de favoritos</string>
+    <string name="msg_card_saved">Ficha guardada</string>
+    <string name="msg_card_deleted">Ficha eliminada</string>
+    <string name="msg_category_created">Categoría creada</string>
+    <string name="msg_category_renamed">Categoría renombrada</string>
+    <string name="msg_category_deleted">Categoría eliminada</string>
+    <plurals name="msg_export_done">
+        <item quantity="one">Exportación completada: %d ficha</item>
+        <item quantity="many">Exportación completada: %d fichas</item>
+        <item quantity="other">Exportación completada: %d fichas</item>
+    </plurals>
+    <plurals name="msg_import_done">
+        <item quantity="one">Importación completada: %d ficha añadida</item>
+        <item quantity="many">Importación completada: %d fichas añadidas</item>
+        <item quantity="other">Importación completada: %d fichas añadidas</item>
+    </plurals>
+    <plurals name="msg_import_duplicates">
+        <item quantity="one">%d repetida omitida</item>
+        <item quantity="many">%d repetidas omitidas</item>
+        <item quantity="other">%d repetidas omitidas</item>
+    </plurals>
+
+    <!-- Contadores -->
+    <plurals name="total_cards">
+        <item quantity="one">%d ficha en total</item>
+        <item quantity="many">%d fichas en total</item>
+        <item quantity="other">%d fichas en total</item>
+    </plurals>
+    <plurals name="card_count">
+        <item quantity="one">%d ficha</item>
+        <item quantity="many">%d fichas</item>
+        <item quantity="other">%d fichas</item>
+    </plurals>
+    <plurals name="category_count">
+        <item quantity="one">%d categoría</item>
+        <item quantity="many">%d categorías</item>
+        <item quantity="other">%d categorías</item>
+    </plurals>
+    <plurals name="search_results_count">
+        <item quantity="one">%d resultado</item>
+        <item quantity="many">%d resultados</item>
+        <item quantity="other">%d resultados</item>
+    </plurals>
+
+    <!-- Errores -->
+    <string name="error_generic">Algo salió mal. Inténtalo de nuevo.</string>
+    <string name="error_title_required">El título es obligatorio</string>
+    <string name="error_name_required">El nombre es obligatorio</string>
+    <string name="error_name_duplicate">Ya existe una categoría con ese nombre</string>
+    <string name="error_save">No se pudo guardar la ficha</string>
+    <string name="error_share">No hay ninguna aplicación para compartir</string>
+    <string name="error_no_file_app">No hay ninguna aplicación para elegir archivos</string>
+    <string name="error_invalid_file">El archivo está dañado o no es un JSON válido</string>
+    <string name="error_not_prompi_file">El archivo no es una copia de seguridad de Prompi</string>
+    <string name="error_unsupported_version">La copia se creó con una versión más reciente de Prompi. Actualiza la aplicación.</string>
+    <string name="error_file_too_large">El archivo es demasiado grande (máximo 20 MB)</string>
+    <string name="error_read_file">No se pudo leer el archivo</string>
+    <string name="error_write_file">No se pudo guardar el archivo</string>
+    <string name="error_backup_empty">El archivo no contiene categorías</string>
+    <string name="error_import_failed">No se pudo importar. Tus datos no se han modificado.</string>
+</resources>

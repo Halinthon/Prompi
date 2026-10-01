@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Versión monocroma (iconos temáticos de Android 13+): dibujo de línea en una sola tinta,
+     que el sistema colorea según el fondo de pantalla. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.74"
+        android:scaleY="0.74"
+        android:translateY="5.5">
+        <!-- Antena -->
+        <path android:fillColor="#FF000000" android:pathData="M53,16h2v9h-2z" />
+        <path android:fillColor="#FF000000" android:pathData="M54,11.5m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+        <!-- Cabeza (contorno) -->
+        <path
+            android:strokeColor="#FF000000" android:strokeWidth="3" android:fillColor="#00000000"
+            android:pathData="M44,25.5h20a4.5,4.5 0,0 1,4.5 4.5v12a4.5,4.5 0,0 1,-4.5 4.5h-20a4.5,4.5 0,0 1,-4.5 -4.5v-12a4.5,4.5 0,0 1,4.5 -4.5z" />
+        <path android:fillColor="#FF000000" android:pathData="M33,31h4v10h-4z" />
+        <path android:fillColor="#FF000000" android:pathData="M71,31h4v10h-4z" />
+        <path android:fillColor="#FF000000" android:pathData="M47.5,34m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+        <path android:fillColor="#FF000000" android:pathData="M60.5,34m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+        <path
+            android:strokeColor="#FF000000" android:strokeWidth="2.2" android:strokeLineCap="round" android:fillColor="#00000000"
+            android:pathData="M49,41q5,4 10,0" />
+        <!-- Libreta (contorno) -->
+        <path
+            android:strokeColor="#FF000000" android:strokeWidth="3" android:fillColor="#00000000"
+            android:pathData="M34,51.5h40a2.5,2.5 0,0 1,2.5 2.5v26a2.5,2.5 0,0 1,-2.5 2.5h-40a2.5,2.5 0,0 1,-2.5 -2.5v-26a2.5,2.5 0,0 1,2.5 -2.5z" />
+        <path
+            android:strokeColor="#FF000000" android:strokeWidth="2.4" android:strokeLineCap="round" android:fillColor="#00000000"
+            android:pathData="M37,63h26" />
+        <path
+            android:strokeColor="#FF000000" android:strokeWidth="2.4" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"
+            android:pathData="M37,72q3,-4 6,0t6,0t6,0" />
+        <!-- Lápiz -->
+        <group android:pivotX="62" android:pivotY="74" android:rotation="-40">
+            <path android:fillColor="#FF000000" android:pathData="M60,48h6v22h-6z" />
+            <path android:fillColor="#FF000000" android:pathData="M60,70h6l-3,5z" />
+        </group>
+    </group>
+</vector>
